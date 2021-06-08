@@ -6,7 +6,7 @@ Objective is to create a 3D object from series of 2D images
 
 You can load DICOM images series dynamically by clicking on load file or by clicking one of the two buttons "_Surface renderning, Ray casting rendering_":
 
-![gui](images/1.jpeg)
+![gui](images/gui.jpeg)
 
 - File Upload Function `loadDir`
 
@@ -16,13 +16,13 @@ You can load DICOM images series dynamically by clicking on load file or by clic
 
 Here, the isovalue = 500
 
-![surface rendering, isovalue=500](images/2.jpeg)
+![surface rendering, isovalue=500](images/surface_rendering_500.jpeg)
 
 - Sliders are used to adjust ISO value of surface Rendering Using the function `isovalue_slider`
 
 Here, the isovalue = 0
 
-![surface rendering, isovalue=0](images/3.jpeg)
+![surface rendering, isovalue=0](images/surface_rendering_0.jpeg)
 
 ## Ray casting for direct volume rendering
 
@@ -30,25 +30,25 @@ Here, the isovalue = 0
 
 Head ray casting:
 
-![head raycasting](images/4.jpeg)
+![head raycasting](images/head_raycasting.jpeg)
 
 Ankle ray casting:
 
-![ankle raycasting](images/5.jpeg)
+![ankle raycasting](images/ankle_raycasting.jpeg)
 
 - Adjusting the Opacity and the RGB color of the Casting Ray by Using the Function `transferFunc_slider`
 
 - Controlling the Opacity slider: 
  
-  ![adjusting opacity slider](images/6.jpeg)
+  ![adjusting opacity slider](images/opacity_slider.jpeg)
 
 - Controlling the RGB color sliders:
   
-  ![adjusting redColor slider](images/7.jpeg)
+  ![adjusting redColor slider](images/redColor_slider.jpeg)
   
-  ![adjusting greenColor slider](images/8.jpeg)
+  ![adjusting greenColor slider](images/greenColor_slider.jpeg)
   
-  ![adjusting blueColor slider](images/9.jpeg)
+  ![adjusting blueColor slider](images/blueColor_slider.jpeg)
 
 ***
 
