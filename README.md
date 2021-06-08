@@ -1,41 +1,54 @@
-# Volume rendering app with VTK & Qt
+# Volume rendering app with Visualization Toolkit (VTK) & Qt
+
+Objective is to create a 3D object from series of 2D images
 
 ## GUI was built using pyqt5 
 
-You can load DICOM images by clicking load file or one of the two buttons "_Surface renderning, Ray casting rendering_":
+You can load DICOM images series dynamically by clicking on load file or by clicking one of the two buttons "_Surface renderning, Ray casting rendering_":
 
 ![gui](images/1.jpeg)
 
 - File Upload Function `loadDir`
 
-## Surface rendering Function `surface_rendering`
+## Surface rendering
 
-Here the isovalue = 500
+- it's done using the function `surface_rendering`
+
+Here, the isovalue = 500
 
 ![surface rendering, isovalue=500](images/2.jpeg)
 
-- Sliders are used to adjust ISO values of surface Rendering Using the Function `isovalue_slider`
+- Sliders are used to adjust ISO value of surface Rendering Using the function `isovalue_slider`
+
+Here, the isovalue = 0
 
 ![surface rendering, isovalue=0](images/3.jpeg)
 
-## Ray Casting has been done by the Function `rayCasting_rendering`
+## Ray casting for direct volume rendering
+
+ - it's done by the function `rayCasting_rendering`
+
+Head ray casting:
 
 ![head raycasting](images/4.jpeg)
+
+Ankle ray casting:
 
 ![ankle raycasting](images/5.jpeg)
 
 - Adjusting the Opacity and the RGB color of the Casting Ray by Using the Function `transferFunc_slider`
 
 - Controlling the Opacity slider: 
-![alt text](images/6.jpeg)
+ 
+  ![adjusting opacity slider](images/6.jpeg)
 
 - Controlling the RGB color sliders:
   
-  ![alt text](images/7.jpeg)
+  ![adjusting redColor slider](images/7.jpeg)
   
-  ![alt text](images/8.jpeg)
+  ![adjusting greenColor slider](images/8.jpeg)
   
-  ![alt text](images/9.jpeg)
+  ![adjusting blueColor slider](images/9.jpeg)
 
 ***
 
